@@ -11,11 +11,74 @@
 </head>
 <body>
     <!-- Clock container -->
-    <div class="clock">
+    <div class="clock" >
         <div class="clock-face">
             <div class="hand hour-hand"></div>
             <div class="hand min-hand"></div>
             <div class="hand second-hand"></div>
+        </div>
+    </div>
+    <!-- clock button change -->
+    <button class="clock-type">Digital</button>
+    <!-- Analog Clock -->
+    <div id="digital-clock" hidden>
+        <!-- Days for clock -->
+        <div class="days">
+            <div class="day">
+              <p class="monday">monday</p>
+            </div>
+            <div class="day">
+              <p class="tuesday">tuesday</p>
+            </div>
+            <div class="day">
+              <p class="wednesday">wednesday</p>
+            </div>
+            <div class="day">
+              <p class="thursday">thursday</p>
+            </div>
+            <div class="day">
+              <p class="friday">friday</p>
+            </div>
+            <div class="day">
+              <p class="saturday">saturday</p>
+            </div>
+            <div class="day">
+              <p class="sunday">sunday</p>
+            </div>
+          </div>
+        </div>
+        <!-- Time for clock -->
+        <div class="time" hidden >
+            <!-- Hours -->
+            <div class="numbers">
+                <p class="hours"></p>
+                <p class="placeholder">88</p>
+            </div>
+            <div class="colon">
+                <p>:</p>
+            </div>
+            <!-- Minutes -->
+            <div class="number">
+                <p class="minutes"></p>
+                <p class="placeholder">88</p>
+            </div>
+            <div class="colon">
+                <p>:</p>
+            </div>
+            <!-- Seconds -->
+            <div class="number">
+                <p class="seconds"></p>
+                <p class="placeholder">88</p>
+            </div>
+            <!-- AM/PM -->
+            <div class="am-pm">
+                <div>
+                    <p class="am">am</p>
+                </div>
+                <div>
+                    <p class="pm">pm</p>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Script -->
