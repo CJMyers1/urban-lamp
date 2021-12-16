@@ -5,4 +5,4 @@ In the background branch the analog clock was set up to allow you to change your
 
 IN the Digital branch clock was altered to add the Button and HTML coding to show a digital clock
 
-View project at Clock/index.html
+View project at https://github.com/CJMyers1/urban-lamp/Clock/index.html
