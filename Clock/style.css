@@ -109,3 +109,23 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .background-4 {
     background: rgb(131, 122, 122);
 }
+
+/* Button that changes clock type */
+
+button {
+    position: absolute;
+    top: 85%;
+    border: none;
+    border-radius: 15px;
+    font-size: 35px;
+    background: linear-gradient(#9b111e, #0F52BA);
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.6);
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    box-shadow: 0 0 5px rgb(0, 0, 0, 1);
+    transform: translate3d(1px, 1px, 1px);
