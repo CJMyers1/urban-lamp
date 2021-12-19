@@ -129,3 +129,15 @@ button:hover {
 button:active {
     box-shadow: 0 0 5px rgb(0, 0, 0, 1);
     transform: translate3d(1px, 1px, 1px);
+}
+
+ 
+ ​@media​ screen ​and​ (​max-width​:​ ​600​px​) { 
+ ​    ​h1​{ 
+ ​        ​font-size​:​ ​15​px​; 
+ ​    } 
+  
+ ​    .​image-container​ { 
+ ​        ​margin​:​ ​10​px​; 
+ ​    } 
+ ​}
